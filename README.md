@@ -85,7 +85,7 @@ Option (Optional)
 --targetpath: Full path including source code to be analyzed in FossID server  
   + Need to change 'webapp_scan_path_enable=1' to use this option in /fossid/etc/fossid.conf file  
   (NOTE: Please, do not use `--targetpath` with `Git Config` and `Upload Target File`)
---dependencyScanRun: Set 0 or 1 to trigger dependency scan after source code scan
+--dependencyscanrun: Set 0 or 1 to trigger dependency scan after source code scan
 			         (default: 0)
 --ignorevalue: Set ignore values. This value is separated by commas and the order of this values is matched with the order of ignoretypes value  
 --ignoretype: Set ignore types. This value is separated by commas and the order of this values is matched with the order of ignorevalue value  
@@ -94,6 +94,7 @@ Option (Optional)
 
 Git Config (Optional)
 (NOTE: Please, do not use `Git Config` with `--targetpath` and `Upload Target File`)
+(NOTE: Applying `--gitrepourl` and `--gitbranch` can be applied when creating a new scan)
 --gitrepourl: Set git repo url 
 --gitbranch: Set git repo branch
 
