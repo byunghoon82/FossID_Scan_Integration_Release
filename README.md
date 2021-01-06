@@ -78,8 +78,7 @@ Server Information
 Project Information  
 --projectname: Project Name  
 --scanname: Scan Name
---prscid: (Optional) Project / Scan ID  
-          (default: today date)
+--prsccode: Project / Scan Code
 
 Option (Optional)  
 --targetpath: Full path including source code to be analyzed in FossID server  
